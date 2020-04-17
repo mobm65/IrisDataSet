@@ -1,14 +1,15 @@
 # IrisDataSet
 Sources:
-Ian McLoughlin, GMIT, PandS, Lecture 1
-R.A. Fisher (1936). "The use of multiple measurements in taxonomic* problems". Annals of Eugenics. 7(2):179-188
-Real Python. Tutorials on OOP, Matplotlib, Pandas, Numpy and csv files.
-Wikipedia - sourced scientific articles on iris data set and machine learning.
+Ian McLoughlin, GMIT, PandS, Lecture 1/
+R.A. Fisher (1936). "The use of multiple measurements in taxonomic* problems". Annals of Eugenics. 7(2):179-188/
+Real Python. Tutorials on OOP, Matplotlib, Pandas, Numpy and csv files./
+Wikipedia - sourced scientific articles on iris data set and machine learning./
+Iris dataarchive.ics.uci.edu › machine-learning-databases › iris/
 
 * taxonomy - classification of something, especially organisms.
 
-RESEARCH
-Background
+RESEARCH/
+Background/
 The Iris data set is a multivariate* data set introduced by the statistician and biologist Ronald Fisher. 
 His study quantified morphologic* data of Iris flowers of three related species; the Setosa and Versicolour were
 gathered in the Gaspe Peninsula near Quebec under the same controls, the third species, the Virginica, comes from an 
