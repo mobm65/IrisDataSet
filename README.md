@@ -4,7 +4,8 @@ Ian McLoughlin, GMIT, PandS, Lecture 1/
 R.A. Fisher (1936). "The use of multiple measurements in taxonomic* problems". Annals of Eugenics. 7(2):179-188/
 Real Python. Tutorials on OOP, Matplotlib, Pandas, Numpy and csv files./
 Wikipedia - sourced scientific articles on iris data set and machine learning./
-Iris dataarchive.ics.uci.edu › machine-learning-databases › iris/
+Iris dataarchive.ics.uci.edu › machine-learning-databases › iris/   http://gael-varoquaux.info/
+
 
 * taxonomy - classification of something, especially organisms.
 
