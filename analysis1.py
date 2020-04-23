@@ -1,32 +1,37 @@
+# scatter plots of two sets of variables
 
-# write data in a text file
-#File_object = open(r"iris.data",)
-#setosa = open(iris.data, "setosa")
-#versicolor = open(iris.data, "versicolor")
-#virginica = open(iris.data, "virginica"
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns 
-from sklearn import preprocessing
-from Cython.Shadow import inline
 
-
-
+# read in iris data set to use for statistical analysis
 iris = pd.read_csv("iris.data")
 iris.info()
 
+# changing iris to int
 iris['Species'] = iris['Species'].astype('category')
-iris['target'] = pd.Categorical.from_array(iris)['Species'].codes
-iris['target'].value_counts()
 
-ax = iris[iris.Species=='Iris-setosa'].plot.scatter(x='SepalLengthCm', 
-y='SepalWidthCm', color='red', label='setosa')
-iris[iris.Species=='Iris-versicolor'].plot.scatter(x='SepalLengthCm',
-y='SepalWidthCm', color='green', label='versicolor', ax=ax)
-iris[iris.Species=='Iris-virginica'].plot.scatter(x='SepalLengthCm', 
-y='SepalWidthCm', color='blue', label='virginica', ax=ax)
-ax.set_title("Variance in petal & sepal length & width in Iris Species")
+# plot first variable, sepal length & breath vs species type
+ax = iris[iris.Species=='Iris-setosa'].plot.scatter(x='spl', 
+y='spw', color='red', label='setosa')
+iris[iris.Species=='Iris-versicolor'].plot.scatter(x='spl',
+y='spw', color='green', label='versicolor', ax=ax)
+iris[iris.Species=='Iris-virginica'].plot.scatter(x='spl', 
+y='spw', color='blue', label='virginica', ax=ax)
+ax.set_title("Variance in Sepal length & width in Iris Species")
+
+# plot second variable, petal length and breath vs species type
+ax = iris[iris.Species=='Iris-setosa'].plot.scatter(x='ptl', 
+y='ptw', color='red', label='setosa')
+iris[iris.Species=='Iris-versicolor'].plot.scatter(x='ptl',
+y='ptw', color='green', label='versicolor', ax=ax)
+iris[iris.Species=='Iris-virginica'].plot.scatter(x='ptl', 
+y='ptw', color='blue', label='virginica', ax=ax)
+ax.set_title("Variance in Petal length & width in Iris Species")
+
+# show the two scatter plots.
+plt.show()
 
 
 
