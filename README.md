@@ -12,6 +12,8 @@ Iris dataarchive.ics.uci.edu › machine-learning-databases › iris
 
 http://gael-varoquaux.info
 
+https://www.kaggle.com/xuhewen/iris-dataset-visualization-and-machine-learning
+
 
 * taxonomy - classification of something, especially organisms.
 
