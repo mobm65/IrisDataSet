@@ -3,6 +3,7 @@ Sources:
 Ian McLoughlin, GMIT, PandS, Lecture 1
 
 R.A. Fisher (1936). "The use of multiple measurements in taxonomic* problems". Annals of Eugenics. 7(2):179-188
+* taxonomy - classification of something, especially organisms.
 
 Real Python. Tutorials on OOP, Matplotlib, Pandas, Numpy and csv files.
 
@@ -14,8 +15,9 @@ http://gael-varoquaux.info
 
 https://www.kaggle.com/xuhewen/iris-dataset-visualization-and-machine-learning
 
+https://medium.com/@harimittapalli/exploratory-data-analysis-iris-dataset
 
-* taxonomy - classification of something, especially organisms.
+
 
 RESEARCH
 
