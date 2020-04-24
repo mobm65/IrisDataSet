@@ -2,10 +2,19 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.pyplot import show
-from numpy.ma import sort
-from pandas import arrays
+import seaborn as sns
+from seaborn import colors
 
 iris = pd.read_csv("iris.data")
-arrays('ptl')
-#print(iris)
+data = pd.DataFrame(iris, columns=['spl','spw','ptl', 'ptw', 'Species'])
+
+
+
+#print(data.head())
+
+#print(data.describe())
+
+#data.info()
+
+sns.pairplot(data)
+plt.show()
