@@ -8,13 +8,5 @@ from seaborn import colors
 iris = pd.read_csv("iris.data")
 data = pd.DataFrame(iris, columns=['spl','spw','ptl', 'ptw', 'Species'])
 
-
-
-#print(data.head())
-
-#print(data.describe())
-
-#data.info()
-
-sns.pairplot(data)
+sns.pairplot(data, hue="Species")
 plt.show()
