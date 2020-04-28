@@ -1,4 +1,4 @@
-# scatter plots of two sets of variables
+# A scatter plots of each set of variables
 
 import pandas as pd
 import matplotlib.pyplot as plt
