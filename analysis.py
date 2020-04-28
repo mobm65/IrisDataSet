@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns 
-import scipy as sp
 
 # import the iris dataset
 iris = pd.read_csv("iris.data")
@@ -15,6 +14,12 @@ plt.xlabel('Petal length in cms')
 plt.ylabel('Frequency')
 plt.title('Frequency of Petal length in three species of Iris')
 plt.show()
+
+# Following is the command I would have used to save each of
+# these histograms to the .png file as requested.  My system will
+# not allow me permission and I cannot rectify it.
+
+#plt.savefig("ptl.png")
 
 # a histogram to display the frequency of petal widths in
 # the iris dataset.
