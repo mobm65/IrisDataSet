@@ -35,7 +35,7 @@ plt.show()
 # these histograms to the .png file as requested.  My system will
 # not allow me permission and I cannot rectify it.
 
-#plt.savefig("ptl.png")
+#plt.savefig("Hist1.png")
 
 # a histogram to display the frequency of petal widths in
 # the iris dataset.
@@ -44,6 +44,8 @@ plt.xlabel('Petal width in cms')
 plt.ylabel('Frequency')
 plt.title('Frequency of Petal width in three species of Iris')
 plt.show()
+#plt.savefig("Hist2.png")
+
 
 #a histogram to display the frequency of sepal lengths in
 # the iris dataset.
@@ -52,7 +54,7 @@ plt.xlabel('Sepal length in cms')
 plt.ylabel('Frequency')
 plt.title('Frequency of Sepal length in three species of Iris')
 plt.show()
-
+#plt.savefig("Hist3.png")
 # a histogram to display the frequency of sepal widths in
 # the iris dataset.
 plt.hist(iris['spw'], facecolor='yellow', edgecolor='black')
@@ -60,7 +62,7 @@ plt.xlabel('Sepal width in cms')
 plt.ylabel('Frequency')
 plt.title('Frequency of Sepal width in three species of Iris')
 plt.show()
-
+#plt.savefig("Hist4.png")
 ############################################################################
 
 
