@@ -55,6 +55,7 @@ plt.ylabel('Frequency')
 plt.title('Frequency of Sepal length in three species of Iris')
 plt.show()
 #plt.savefig("Hist3.png")
+
 # a histogram to display the frequency of sepal widths in
 # the iris dataset.
 plt.hist(iris['spw'], facecolor='yellow', edgecolor='black')
@@ -63,6 +64,7 @@ plt.ylabel('Frequency')
 plt.title('Frequency of Sepal width in three species of Iris')
 plt.show()
 #plt.savefig("Hist4.png")
+
 ############################################################################
 
 
